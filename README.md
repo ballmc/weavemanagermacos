@@ -29,7 +29,7 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 1. Download either `Weave.Manager.app.tar.gz` or `Weave.Manager_0.1.0_universal.dmg`.
 2. Run the application.
-3. Launch Lunar Client and then relaunch it using Weave Manager.
+3. Launch Lunar Client and then relaunch it using Weave Manager. (See the second picture for how to relaunch)
 
 ### Code Changes
 
