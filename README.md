@@ -21,13 +21,13 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 ### Setup Steps
 
-1. Download `Weave-Loader-Agent-0.2.4.jar` (or whatever the latest version is called) from [Weave Loader Releases](https://github.com/Weave-MC/Weave-Loader/releases).
+1. Download `Weave-Loader-Agent-0.2.4.jar` (or whatever the latest version is called) from [Weave Loader Agent Releases](https://github.com/Weave-MC/Weave-Loader/releases).
 2. Rename the downloaded file to `loader.jar`.
 3. Drag and drop the `loader.jar` file into `/Users/your_name/.weave`.
 
 ### Using Weave Manager
 
-1. Download either `Weave.Manager.app.tar.gz` or `Weave.Manager_0.1.0_universal.dmg`.
+1. Download either `Weave.Manager.app.tar.gz` or `Weave.Manager_0.1.0_universal.dmg` from [Weave Manager MacOS Releases](https://github.com/ballmc/weavemanagermacos/releases).
 2. Run the application.
 3. Launch Lunar Client and then relaunch it using Weave Manager. (See the second picture above for how to relaunch)
 
