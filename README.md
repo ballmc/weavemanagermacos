@@ -45,15 +45,15 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 <img width="867" alt="image" src="https://github.com/ballmc/weavemanagermacos/assets/140663688/410eca3c-ee65-4b0a-870a-37f82eac851f">
 
-4. Added default placeholder icons to bypass build errors
+3. Added default placeholder icons to bypass build errors
    
 <img width="344" alt="image" src="https://github.com/ballmc/weavemanagermacos/assets/140663688/d41f0f0f-21ab-4623-a7e4-87ebeda6d712">
 
-6. Edited tauri.conf.json's scope to fix some permission/path issues for MacOS
+4. Edited tauri.conf.json's scope to fix some permission/path issues for MacOS
    
 <img width="684" alt="image" src="https://github.com/ballmc/weavemanagermacos/assets/140663688/7a5839ea-6141-47c7-ad45-cb84047ab895">
 
-8. Edited tauri.conf.json's icons
+5. Edited tauri.conf.json's icons
    
 <img width="260" alt="image" src="https://github.com/ballmc/weavemanagermacos/assets/140663688/35400911-6540-4b3e-a6ff-a4c278b43a49">
 
