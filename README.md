@@ -35,7 +35,7 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 ### The issues I fixed with the original Weave Manager for documentation purposes
 
-1. Built a universal binary on a M1 Mac by running
+1. Built a universal binary on an M1 Mac by running
 
 `rustup target add x86_64-apple-darwin`
 
