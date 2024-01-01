@@ -1,0 +1,112 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:5173",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Weave Manager",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+
+      "window": {
+        "all": false,
+        "close": true,
+        "hide": true,
+        "minimize": true,
+        "show": true,
+        "setFocus": true,
+        "startDragging": true
+      },
+      "shell": {
+        "all": false,
+        "open": ""
+      },
+      "fs": {
+        "exists": true,
+        "writeFile": true,
+        "renameFile": true,
+        "readFile": true,
+        "readDir": true,
+        "copyFile": true,
+        "createDir": true,
+        "scope": [
+          "$HOME/.weave/mods/**",
+          "$HOME/.weave/mods",
+          "$HOME/.weave/manager.json",
+          "$HOME/.weave/analytics.json",
+          "$HOME/.weave/loader.jar"
+        ]
+      },
+      "path": {
+        "all": true
+      },
+      "process": {
+        "relaunch": true
+      },
+      "http": {
+        "request": true,
+        "scope": ["https://api.github.com/repos/Weave-MC/**", "https://github.com/Weave-MC/**"]
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "net.weavemc.manager",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://github.com/Weave-MC/Weave-Manager/releases/latest/download/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI0M0NFOEI0NzdEREREOTUKUldTVjNkMTN0T2c4Sko3OGl6VGUxYkc4M2FzUFVoZFphZEtZaEVkWWphM0l6bzUzVzN4Z1cwVlMK"
+    },
+    "systemTray": {
+      "iconPath": "icons/icon.ico"
+    },
+    "windows": [
+      {
+        "title": "Weave Manager",
+        "width": 800,
+        "height": 600,
+        "fullscreen": false,
+        "resizable": false,
+        "decorations": false
+      }
+    ]
+  }
+}
