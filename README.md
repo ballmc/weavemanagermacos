@@ -31,7 +31,9 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 2. Run the application.
 3. Launch Lunar Client and then relaunch it using Weave Manager.
 
-### The issues I fixed with the original weave manager for documentation purposes
+### Code Changes
+
+### The issues I fixed with the original Weave Manager for documentation purposes
 
 1. Built a universal binary on a M1 Mac by running
 
