@@ -15,7 +15,7 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 1. If you don't have a `.weave` folder, create it in `/Users/your_name/.weave`.
 2. If you don't have a `mods` folder, create it in `/Users/your_name/.weave/mods`.
-3. Drag and drop your desired mods into `/Users/your_name/.weave/mods`.
+3. Drag and drop your desired weave mods into `/Users/your_name/.weave/mods`.
 
 ## Running Weave Manager
 
