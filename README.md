@@ -31,7 +31,7 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 2. Run the application.
 3. Launch Lunar Client and then relaunch it using Weave Manager.
 
-### The issues I fixed for documentation purposes
+### The issues I fixed with the original weave manager for documentation purposes
 
 1. Built a universal binary on a M1 Mac by running
 
@@ -54,3 +54,5 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 8. Edited tauri.conf.json's icons
    
 <img width="260" alt="image" src="https://github.com/ballmc/weavemanagermacos/assets/140663688/35400911-6540-4b3e-a6ff-a4c278b43a49">
+
+Original Weave Manager Link: https://github.com/Weave-MC/Weave-Manager
