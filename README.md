@@ -21,7 +21,7 @@ This is a prebuilt version of Weave Manager designed specifically for MacOS. It 
 
 ### Setup Steps
 
-1. Download `Weave-Loader-Agent-0.2.4.jar` (or whatever the latest version is called) from [Weave Loader Agent Releases](https://github.com/Weave-MC/Weave-Loader/releases).
+1. Download `Weave-Loader-Agent-0.2.5.jar` (or whatever the latest version is called) from [Weave Loader Agent Releases](https://github.com/Weave-MC/Weave-Loader/releases).
 2. Rename the downloaded file to `loader.jar`.
 3. Drag and drop the `loader.jar` file into `/Users/your_name/.weave`.
 
